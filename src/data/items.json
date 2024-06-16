@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Wooden Desk",
+    "img": "https://images.unsplash.com/photo-1564383424695-05a0668266ec?q=80&w=1882&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "sale": false,
+    "rating": null,
+    "price": {
+      "old_price": null,
+      "new_price": null,
+      "price_range": "$400.00 - $480.00"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Watch",
+    "img": "https://img.freepik.com/free-vector/wristwatch-cartoon-icon-illustration-clock-object-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-2421.jpg?t=st=1718460069~exp=1718463669~hmac=3da45ea5cbef8316cab8e333bae8bd4c95382efe33280d0a3e4bd913079f61ad&w=740",
+    "sale": true,
+    "rating": 5,
+    "price": {
+      "old_price": "$20.00",
+      "new_price": "$18.00",
+      "price_range": null
+    }
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "img": "https://img.freepik.com/free-photo/one-white-sneaker-shoe-isolated-white_93675-133980.jpg?t=st=1718460148~exp=1718463748~hmac=f421d9e9876fdbf34e8f8c7396ff0e3d3314d73490b9783c15981576a4e31664&w=900",
+    "sale": true,
+    "rating": null,
+    "price": {
+      "old_price": "$110.00",
+      "new_price": "$90.00",
+      "price_range": null
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sketchbook",
+    "img": "https://images.unsplash.com/photo-1554376279-d0bc03ddea1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "sale": false,
+    "rating": 4,
+    "price": {
+      "old_price": null,
+      "new_price": "$25.00",
+      "price_range": null
+    }
+  },
+  {
+    "id": 5,
+    "name": "OBJECTIF LUNE, Book",
+    "img": "https://images.unsplash.com/photo-1606715897809-f6b0c1e39c7e?q=80&w=1904&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "sale": true,
+    "rating": 5,
+    "price": {
+      "old_price": "$45.00",
+      "new_price": "$35.00",
+      "price_range": null
+    }
+  },
+  {
+    "id": 6,
+    "name": "Lego",
+    "img": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "sale": false,
+    "rating": null,
+    "price": {
+      "old_price": null,
+      "new_price": null,
+      "price_range": "$10.00 - 200.00"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Oil Pastels",
+    "img": "https://images.unsplash.com/photo-1631217616477-dab32aa86daf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "sale": true,
+    "rating": 3.5,
+    "price": {
+      "old_price": "$20.00",
+      "new_price": "$18.00",
+      "price_range": null
+    }
+  },
+  {
+    "id": 8,
+    "name": "Leather Backpack",
+    "img": "https://img.freepik.com/free-photo/front-view-backpack-ground_23-2148752382.jpg?t=st=1718460444~exp=1718464044~hmac=a9b35055289be7819ae199313fd396f8bdd89f7b834d3d7ea13c80658257cdb8&w=826",
+    "sale": false,
+    "rating": 4.5,
+    "price": {
+      "old_price": null,
+      "new_price": "$100.00",
+      "price_range": null
+    }
+  }
+]

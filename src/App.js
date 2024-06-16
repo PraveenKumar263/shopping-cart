@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import { Footer } from './components/Footer.js';
+import { Header } from "./components/Header.js";
+import { NavBar } from "./components/NavBar.js";
+import { Products } from "./components/Products.js";
 
 function App() {
+  // To maintain items in cart
+  const [cart, setCart] = useState([]);
+
+  // To add item to cart
+  const addToCart = (item) => {
+    setCart([...cart, item]);
+  };
+
+  // To remove item from cart
+  const removeFromCart = (itemToRemove) => {
+    const updatedCart = cart.filter((item) => item.id !== itemToRemove);
+    setCart(updatedCart);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar numItems={cart.length} />
+      <Header />
+      <Products cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} />
+      <Footer />
+    </>
   );
 }
 
