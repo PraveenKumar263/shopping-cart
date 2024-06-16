@@ -36,12 +36,18 @@ export function Card({ product, cart, addToCart, removeFromCart }) {
                 {/* <!-- Product actions--> */}
                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                     <div className="text-center">
-                        <button 
-                            className="btn btn-outline-dark mt-auto" 
-                            onClick={() => handleCartAction(product)}
-                        >
-                            {inCart ? 'Remove from cart' : 'Add to cart'}
-                        </button>
+                    {product.price.price_range ? 
+                    <button 
+                        className="btn btn-outline-dark mt-auto">
+                            View Options
+                    </button> :
+                    <button 
+                        className="btn btn-outline-dark mt-auto" 
+                        onClick={() => handleCartAction(product)}
+                    >
+                        {inCart ? 'Remove from cart' : 'Add to cart'}
+                    </button>
+                    }
                     </div>
                 </div>
             </div>
