@@ -28,7 +28,7 @@ export function Card({ product, cart, addToCart, removeFromCart }) {
                         {/* <!-- Product name--> */}
                         <h5 className="fw-bolder">{product.name}</h5>
                         {/* <!-- Product reviews--> */}
-                        <Rating rating={product.rating} />
+                        {product.rating !== null ? <Rating rating={product.rating} /> : " "}
                         {/* <!-- Product price--> */}
                         <Price  price={product.price} />
                     </div>
